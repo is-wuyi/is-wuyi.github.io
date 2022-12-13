@@ -1,0 +1,154 @@
+<!-- footer start here --> 
+	<div class="footer-agile">
+		<div class="container">
+			<div class="footer-agileinfo"> 
+				<div class="col-md-5 col-sm-5 footer-wthree-grid"> 
+					<div class="agileits-w3layouts-tweets">  
+						<h5><a href="index.html">教师节快乐</a></h5> 
+						
+					</div>
+					<p>为教师节所准备的网站</p>
+				</div> 
+				<div class="col-md-3 col-sm-3 footer-wthree-grid">
+					
+				</div> 	 
+				<div class="col-md-4 col-sm-4 footer-wthree-grid">
+					<h3>地址</h3>
+					<ul>
+						<li>伍屹与一只小流浪的工作室</li> 
+						<li>上海/西安市</li>
+						<li>qq：3035969948</li>
+						<li><a href="mailto:3035969948@qq.com">3035969948@qq.com</a></li>
+						<li><a href="mailto:b99982778@outlook.com">b99982778@outlook.com</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>		
+			</div>
+			<div class="copy-right"> 
+				<p>Copyright © 2022.伍屹<br>由伍屹的破服务器提供计算和运行支持</p>
+
+<a href="https://icp.gov.moe/?keyword=20228384" target="_blank">萌ICP备20228384号</a>
+			</div>
+		</div>
+	</div>
+
+		
+
+		<!-- //footer end here -->  
+	<!-- FlexSlider --> 
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	</script>
+	<!-- End-slider-script --> 
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+			
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->	
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->   
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+<script>
+$.fn.ImgZoomIn = function() {
+
+    var window_h = $(window).height();
+    var scroll_h = $(window).scrollTop();
+
+    bgstr = '<div id="ImgZoomInBG" style="position: absolute;filter:Alpha(Opacity=70); opacity:0.7;z-index: 10000;background-color: #000;display: none;"></div>';
+    imgstr = '<img id="ImgZoomInImage" src="' + $(this).attr('src') + '" style="cursor:pointer; display:none; position:absolute; z-index:10001;" />';
+    if ($('#ImgZoomInBG').length < 1) {
+        $('body').append(bgstr);
+    }
+    if ($('#ImgZoomInImage').length < 1) {
+        $('body').append(imgstr);
+    } else {
+        $('#ImgZoomInImage').attr('src', $(this).attr('src'));
+    }
+
+    $('#ImgZoomInBG').css('top', scroll_h + 'px');
+    $('#ImgZoomInBG').css('width', '100%');
+    $('#ImgZoomInBG').css('height','70%');
+
+    $('#ImgZoomInImage').css('width', '100%');
+    $('#ImgZoomInImage').css('height','70%');
+    $('#ImgZoomInImage').css('top', (scroll_h + window_h / 4) + 'px');
+
+    $('#ImgZoomInBG').show();
+    $('#ImgZoomInImage').show();
+};
+// PC端
+$(document).ready(function() {
+    $(document).on('click', '.item_img', function() {
+        $(this).ImgZoomIn();
+        $(document.body).css({
+            "overflow-x": "hidden",
+            "overflow-y": "hidden"
+        });
+    });
+
+    $(document).on('click', '#ImgZoomInImage', function() {
+        $('#ImgZoomInImage').hide();
+        $('#ImgZoomInBG').hide();
+        $(document.body).css({
+            "overflow-x": "auto",
+            "overflow-y": "auto"
+        });
+    });
+});
+// 手机端
+$(document).ready(function() {
+    $(document).on('touchend', '.item_img', function(t) {
+        $(this).ImgZoomIn();
+        document.ontouchstart = function() {
+            return false;
+        }
+        t.preventDefault();
+    });
+
+    $(document).on('touchend', '#ImgZoomInImage', function(t) {
+        $('#ImgZoomInImage').hide();
+        $('#ImgZoomInBG').hide();
+        document.ontouchstart = function() {
+            return true;
+        }
+        t.preventDefault();
+    });
+});
+</script>
+
+</body>
+</html>
