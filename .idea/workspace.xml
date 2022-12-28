@@ -7,7 +7,12 @@
     <list default="true" id="106609c5-6206-4cfa-be71-aa7157d826be" name="变更" comment="更新 workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wuyi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/wuyi.jpg" afterDir="false" />
+>>>>>>> 25362ef35bc2c2c0b20c3070af804fe9d81de6c5
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +81,11 @@
       <workItem from="1672058115653" duration="1003000" />
       <workItem from="1672106843732" duration="14901000" />
       <workItem from="1672130071581" duration="6735000" />
+<<<<<<< HEAD
       <workItem from="1672188684748" duration="9547000" />
+=======
+      <workItem from="1672188684748" duration="8280000" />
+>>>>>>> 25362ef35bc2c2c0b20c3070af804fe9d81de6c5
     </task>
     <task id="LOCAL-00001" summary="更新 workspace.xml">
       <created>1672209647668</created>
