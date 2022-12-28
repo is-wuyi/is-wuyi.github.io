@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106609c5-6206-4cfa-be71-aa7157d826be" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/person2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="106609c5-6206-4cfa-be71-aa7157d826be" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +69,7 @@
       <workItem from="1672058115653" duration="1003000" />
       <workItem from="1672106843732" duration="14901000" />
       <workItem from="1672130071581" duration="6735000" />
-      <workItem from="1672188684748" duration="615000" />
+      <workItem from="1672188684748" duration="973000" />
     </task>
     <servers />
   </component>
@@ -90,5 +86,8 @@
         <option value="Space.CommitStatus" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
