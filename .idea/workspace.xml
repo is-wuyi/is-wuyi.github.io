@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106609c5-6206-4cfa-be71-aa7157d826be" name="变更" comment="">
+    <list default="true" id="106609c5-6206-4cfa-be71-aa7157d826be" name="变更" comment="更新 workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wuyi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/wuyi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +76,16 @@
       <workItem from="1672058115653" duration="1003000" />
       <workItem from="1672106843732" duration="14901000" />
       <workItem from="1672130071581" duration="6735000" />
-      <workItem from="1672188684748" duration="8280000" />
+      <workItem from="1672188684748" duration="9547000" />
     </task>
+    <task id="LOCAL-00001" summary="更新 workspace.xml">
+      <created>1672209647668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672209647668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +103,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="更新 workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 workspace.xml" />
   </component>
 </project>
