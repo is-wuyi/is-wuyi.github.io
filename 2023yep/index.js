@@ -1,4 +1,3 @@
- 
 var S = {
   init: function () {
     var action = window.location.href,
@@ -10,7 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||2023||#rectangle|伍屹|&|一只小流浪||写|尽|千|山|落|笔|是|你|#rectangle|新年快乐！|#circle|');
+      S.UI.simulate('|#countdown 5|2023|#rectangle|伍屹|&|一只小流浪||写尽千山|落笔是你|#rectangle|新年快乐！|#circle|');
     }
  
     S.Drawing.loop(function () {
@@ -146,7 +145,7 @@ S.UI = (function () {
             } else {
               S.Shape.switchShape(S.ShapeBuilder.letter(index), true);
             }
-          }, 1000, value, true);
+          }, 2000, value, true);
           break;
         case 'rectangle':
           value = value && value.split('x');
