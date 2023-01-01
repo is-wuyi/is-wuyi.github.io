@@ -9,7 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 5|2023|#rectangle|伍屹|&|一只小流浪||写尽千山|落笔是你|#rectangle|新年快乐！|#circle|');
+      S.UI.simulate('|#countdown 5|2023|#rectangle|伍屹|&|小流浪||写尽千山|落笔是你|#rectangle|新年快乐！|#circle|');
     }
  
     S.Drawing.loop(function () {
